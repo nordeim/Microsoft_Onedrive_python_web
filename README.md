@@ -44,6 +44,7 @@ To use this improved version:
 1. Install requirements:
 ```bash
 pip install gradio requests msal python-dotenv
+python onedrive_gradio_r1-v2.py
 ```
 
 2. Configure Azure AD app with:

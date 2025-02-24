@@ -63,6 +63,7 @@ class OneDriveManager:
         return sorted(
             data.get("value", []),
             key=lambda x: (x.get("folder") is None, x["name"].lower())
+        )
     
     def navigate(self, item_id: str, is_folder: bool) -> None:
         """Navigate into folder or reset to root"""

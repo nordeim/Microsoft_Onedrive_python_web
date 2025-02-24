@@ -1,5 +1,34 @@
 # Microsoft Onedrive with python web ui
 
+**Setup Instructions:**
+
+1. Create Azure AD Application:
+   - Go to Azure Portal → App Registrations → New Registration
+   - Set redirect URI to `http://localhost:8000/callback`
+   - Add client secret and note down CLIENT_ID & CLIENT_SECRET
+
+2. Install requirements:
+```bash
+pip install gradio msal python-dotenv requests msgraph-sdk
+```
+
+3. Create `.env` file:
+```
+CLIENT_ID=your_azure_client_id
+CLIENT_SECRET=your_azure_client_secret
+```
+
+**Features:**
+- Modern Gradio interface with emoji icons
+- File/folder navigation with breadcrumbs
+- Upload/download functionality
+- Folder creation/delete operations
+- Responsive design with theme support
+- Secure token management
+- Real-time updates
+
+---
+
 Key Improvements and Integrations:
 
 1. **Hybrid Architecture**

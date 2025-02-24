@@ -11,7 +11,7 @@ load_dotenv()
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
 AUTHORITY = "https://login.microsoftonline.com/common"
-SCOPE = ["Files.ReadWrite.All", "User.Read", "offline_access"]
+SCOPE = ["Files.ReadWrite.All", "User.Read"]
 REDIRECT_URI = "http://localhost:8000/callback"
 
 # -------------------- Enhanced OneDrive Manager --------------------

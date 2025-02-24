@@ -3,3 +3,7 @@ You are a deep thinking AI, you may use extremely long chains of thought to deep
 Please use Claude Model Context Protocol (MCP) plug-in to create for me a complete working python code with gradio as web ui to connect to Microsoft onedrive using Microsoft authentication. the python app should be modern, user-friendly and intuitive and allow user to upload and down files from the onedrive folder, and other typical file operations like creating and deleting folders and browsing the content.
 
 Go here for details about Claude MCP: https://github.com/modelcontextprotocol
+
+----
+
+given the following code sample as your reference, can you think through thoroughly and explore various alternatives to integrate the ideas from the code sample below to come up with a *complete* and *improved* version of your code implementation?
